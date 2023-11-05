@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@300&family=Edu+TAS+Beginner:wght@400;500&family=Montserrat:wght@600&family=Raleway&display=swap');
+.todoitems {
+padding: 10px 16px 0 16px ;
+/* border: 2px solid red; */    
+}
+.todoitems-text{
+    font-family: 'Edu TAS Beginner', cursive;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.todoitems-container img{
+    height: 20px;
+    width: 20px;
+   
+}
+#xmark{
+    height: 20px;
+    width: 20px;
+
+}
+.todoitems-container {
+    display: flex;
+    gap: 10px;
+}
+.line-through{
+    text-decoration: line-through solid black;
+}
+.cursor-pointer{
+  margin-top: 6px;
+  
+}
+.cursor-check{
+    margin-top: 6px;
+}
